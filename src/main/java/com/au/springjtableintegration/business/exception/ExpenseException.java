@@ -15,10 +15,12 @@ public class ExpenseException extends Exception{
     }
 
     public ExpenseException(String message){
+
         super(message);
     }
 
     public ExpenseException(String message, Exception exception){
+
         super(message, exception);
     }
 }
